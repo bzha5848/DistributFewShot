@@ -3,5 +3,5 @@ train: /content/plumYOLO/train/images
 val: /content/plumYOLO/val/images  
 test: /content/plumYOLO/test/images 
 
-nc: 22
-names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor','frogeye','rust']
+nc: 24
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor','frogeye','rust','powder','scab']
