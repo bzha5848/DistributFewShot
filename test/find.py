@@ -27,18 +27,19 @@ def fileFind(number, file):
                             # print(item)
                             # file.write(item+'\n')
                             is_here = True
+                            file.write(item+'\n')
                             # count = 0
-            if is_here:
-                count = count+1
-                if count >= 24:
-                    file.write(item+'\n')
-                    count = 0
+            # if is_here:
+            #     count = count+1
+            #     if count >= 24:
+            #         file.write(item+'\n')
+            #         count = 0
 
 f = open("fewshots.txt", "w")
 # for n in range(0, 80):
-fileFind(22, f)
-fileFind(23, f)
-
+# fileFind(22, f)
+# fileFind(23, f)
+fileFind(2, f)
 f.close()
 shopping = open("fewshots.txt")
 lines = shopping.readlines()
