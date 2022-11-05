@@ -1,2 +1,2 @@
 # FewVOC
-test effect of voc fewshot
+Distributed few-shot for apple leaf diseases
